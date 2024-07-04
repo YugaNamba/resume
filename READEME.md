@@ -20,6 +20,7 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+![Go](https://img.shields.io/badge/go-%2300ADD8E.svg?style=for-the-badge&logo=go&logoColor=white)
 ![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
 
 ### フレームワーク・その他
@@ -33,6 +34,8 @@
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![Hono](https://img.shields.io/badge/Hono-%23000000.svg?style=for-the-badge&logo=hono&logoColor=white)
 
 ---
 
@@ -42,7 +45,7 @@
 
 #### 概要
 
-- 0 ⇨1 フェーズにおけるアパレル製造業の業務 SaaS の開発
+- アパレル製造業の業務 SaaS の開発
 
 #### 担当
 
@@ -53,7 +56,7 @@
 
 #### 使用技術
 
-- Firebase Firestore/Storage/Functions/Hosting/Authentication, Cloud SQL, Cloud Run, Cloud Build, Cloud Vision, BigQuery, Docker, GraphQL, Nuxt.js, Vuetify, SendGrid, GitHub Actions, DX Suite(Intelligent OCR, Elastic Sorter), DeepL
+- Firebase Firestore/Storage/Functions/Hosting/Authentication, Cloud SQL, Cloud Run, Cloud Build, Cloud Vision, BigQuery, Docker, GraphQL, Nuxt.js, Vuetify, SendGrid, GitHub Actions, DX Suite(Intelligent OCR, Elastic Sorter), DeepL, TypeScript, Python, FastAPI, Cloudflare Workers, Sentry
 
 #### 取り組み
 
@@ -74,6 +77,7 @@
 - Nuxt3 系へのリプレースをスムーズに行った
 - プロダクトのリプレイスで Firestore から PostgreSQL に移行する際、既存のドメイン知識を活用してモデル設計を行った
 - 既存プロダクトの資産を生かしながら、Google Cloud Vision と DeepL を用いた翻訳アプリケーションの作成を短期間で行った
+- DSの方との連携を行いながらモデルの改善やマスタデータの取り込みを行った
 
 ### 顧客・卓管理＆ミニゲームアプリ（2020/10〜2021/03）
 
@@ -101,8 +105,7 @@
 - 複数店舗への導入を前提とした DB 設計を行なった
 - マークアップの方との連携時に、ある程度コンポーネントを分けて機能を実装し、そこにスタイルなどを追加してもらうだけで済むような開発を行なった
 - Functions で通知やカードの更新などバッチ処理を行なった
-- デリバリーを最優先にしながらも
-  品質を落とさないようなスコープ調整を行なった
+- デリバリーを最優先にしながらも品質を落とさないようなスコープ調整を行なった
 
 ### 介護人材マッチングアプリ(2020/04~2021/03)
 
